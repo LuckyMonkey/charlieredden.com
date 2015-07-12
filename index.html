@@ -15,17 +15,13 @@
     
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
+    var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    
-    
-    <!-- Flowtype.js 
-    <script src='https://raw.githubusercontent.com/simplefocus/FlowType.JS/master/flowtype.js'></script> -->
-    
+        
     <style>
         * {margin:0;border:0;padding:0;}
         html {font-size:100%;}
@@ -110,7 +106,7 @@ background-image: url("http://www.transparenttextures.com/patterns/pw-pattern.pn
         height:100%;
         box-shadow: inset -10px 0px 10px -5px rgba(0,0,0,0.4);}
         main {padding-left:2em;flex:5;background-color:#FFF;}
-        .infoContainer {flex-direction:row;border:1px solid black;border-right:none;background-color:#FFF;margin-bottom:0.3em;}
+        .infoContainer > div :not(.bump) {flex-direction:row;border:1px solid black;border-right:none;background-color:#FFF;margin-bottom:0.3em;}
         .info_location .fa {color:red;}
         .info_contact .fa {color:deepskyblue;}
         .info_resume .fa {color:brown;}
@@ -161,9 +157,11 @@ background-image: url("http://www.transparenttextures.com/patterns/pw-pattern.pn
 </header>
 <aside class='flex_stack'>
     <img src='img/layout/face.jpg' id='face' alt='Charles Redden - Web Developer' />
-    <div class='infoContainer info_work'><i class="fa fa-fw fa-street-view"></i>&nbsp;Web Developer</div>
-    <div class='infoContainer info_location'><i class="fa fa-fw fa-map-marker"></i>&nbsp;Portland Oregon</div>
-     <div class='infoContainer info_birthday'><i class="fa fa-fw fa-birthday-cake"></i>&nbsp;22 Years Old</div>
+    
+    <section class='infoContainer'>
+        <div class='info_work'><i class="fa fa-fw fa-street-view"></i>&nbsp;Web Developer</div>
+        <div class='info_location'><i class="fa fa-fw fa-map-marker"></i>&nbsp;Portland Oregon</div>
+        <div class='info_birthday'><i class="fa fa-fw fa-birthday-cake"></i>&nbsp;22 Years Old</div>
     <!-- 
     <div class='infoContainer info_things'><i class="fa fa-fw fa-code"></i>&nbsp;
             <span>HTML5</span>
@@ -173,23 +171,23 @@ background-image: url("http://www.transparenttextures.com/patterns/pw-pattern.pn
             <span>PHOTOSHOP</span>
             <span>UI/UX</span>
     </div> -->
-    <div class='bump'></div>
-    <div class='infoContainer info_mention'><i class="fa fa-fw fa-at"></i>&nbsp;Charles_Redden</div>
-    <div class='infoContainer info_steam'><i class="fa fa-fw fa-steam"></i>&nbsp;LuckyMonkey</div>
-    <div class='infoContainer info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</div>
-    <div class='infoContainer info_phone'><i class="fa fa-fw fa-phone"></i>&nbsp;774.855.9659</div>
-    <div class='bump'></div>
-    <div class='infoContainer info_contact'><i class="fa fa-fw fa-paper-plane-o"></i>&nbsp;Contacting Me</div>
-    <div class='infoContainer info_resume'><i class="fa fa-fw fa-clipboard"></i>&nbsp;Resume / Curriculum Vitae</div>
-    <div class='bump'></div>
-    <div class='infoContainer info_painting'><i class="fa fa-fw fa-paint-brush"></i>&nbsp;Painting</div>
-    <div class='infoContainer info_photos'><i class="fa fa-fw fa-camera"></i>&nbsp;Photography</div>
-    <div class='infoContainer info_travels'><i class="fa fa-fw fa-globe"></i>&nbsp;Travels</div>
-    <div class='infoContainer info_webdev'><i class="fa fa-fw fa-file-code-o"></i>&nbsp;Web Development</div>
-    <div class='infoContainer info_shares'><i class="fa fa-cloud-upload"></i>&nbsp;Shared Files</div>
-    <div class='infoContainer info_ideas'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Other Projects</div>
-    <div class='infoContainer info_links'><i class='fa fa-fw fa-paperclip'></i>&nbsp;Links / Cool Stuff</div>
-    
+        <div class='bump'></div>
+        <div class='info_mention'><i class="fa fa-fw fa-at"></i>&nbsp;Charles_Redden</div>
+        <div class='info_steam'><i class="fa fa-fw fa-steam"></i>&nbsp;LuckyMonkey</div>
+        <div class='info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</div>
+        <div class='info_phone'><i class="fa fa-fw fa-phone"></i>&nbsp;774.855.9659</div>
+        <div class='bump'></div>
+        <div class='info_contact'><i class="fa fa-fw fa-paper-plane-o"></i>&nbsp;Contacting Me</div>
+        <div class='info_resume'><i class="fa fa-fw fa-clipboard"></i>&nbsp;Resume / Curriculum Vitae</div>
+        <div class='bump'></div>
+        <div class='info_painting'><i class="fa fa-fw fa-paint-brush"></i>&nbsp;Painting</div>
+        <div class='info_photos'><i class="fa fa-fw fa-camera"></i>&nbsp;Photography</div>
+        <div class='info_travels'><i class="fa fa-fw fa-globe"></i>&nbsp;Travels</div>
+        <div class='info_webdev'><i class="fa fa-fw fa-file-code-o"></i>&nbsp;Web Development</div>
+        <div class='info_shares'><i class="fa fa-cloud-upload"></i>&nbsp;Shared Files</div>
+        <div class='info_ideas'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Other Projects</div>
+        <div class='info_links'><i class='fa fa-fw fa-paperclip'></i>&nbsp;Links / Cool Stuff</div>
+    </section>
 </aside>
 <main class='flex_stack'>
 <h1>Hello World!</h1>
@@ -285,8 +283,6 @@ background-image: url("http://www.transparenttextures.com/patterns/pw-pattern.pn
     <a class="twitter-timeline"  href="https://twitter.com/charles_redden" data-widget-id="454467152523702272">Tweets by @charles_redden</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>      
 </div>
-
-
 
 </section>
 </main>
