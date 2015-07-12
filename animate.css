@@ -1,0 +1,29 @@
+.gradient_animation {background: linear-gradient(336deg, #40ca00, #c8ffae, #5588dd, #55ddd2, #55ddd2);
+background-size: 1000% 100%;
+
+-webkit-animation: backgroundColor 30s ease infinite;
+-moz-animation: backgroundColor 30s ease infinite;
+-o-animation: backgroundColor 30s ease infinite;
+animation: backgroundColor 30s ease infinite;
+}
+
+@-webkit-keyframes backgroundColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes backgroundColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes backgroundColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes backgroundColor { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
