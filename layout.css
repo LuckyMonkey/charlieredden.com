@@ -33,7 +33,7 @@
             background:#000;
             opacity:0.8;
         }
-        header {flex:1;height:3em;padding:0 3em;}
+        header {flex:1;height:4em;padding:0 3em;}
 
 .flex {display:flex;}
         .flex_row {display:flex;flex-direction:row;}
@@ -85,14 +85,15 @@ inset -3px 0px 10px 0px #FFFFFF;margin:0 auto;z-index:+1;
         #logo img {height:80%;align-self:center;}
 
 
-#wibwo {width:100%;height:15em;box-shadow:0 5em 10em 0 black inset;
+#wibwo {width:100%;box-shadow:0 5em 10em 0 black inset;
 background: url("img/layout/FreshPaint-30-2015.07.15-12.45.31.png")bottom left no-repeat;
 background-size: cover;}
 #wibwo h3 {color:white;margin:0 0.5em;text-shadow:0px 0px 3px rgba(255,255,255,0.8);}
+/* #wibwo > section {} */
 #wibwo img {box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.7);}
 
 
-        #headerButtons {list-style:none;height:100%;z-index:+1;}
+        #headerButtons {list-style:none;height:90%;z-index:+1;}
         #headerButtons li {align-self:center;border-radius:50%;transition:opacity 0.2s ease}
         #headerButtons div {background-clip:padding-box;width:2rem;height:2rem;border-radius:50%;text-align:center;}
         #headerButtons a:link {font-size:1rem;color:inherit;line-height:2rem;}
@@ -102,12 +103,12 @@ background-size: cover;}
         #headerButtons div {transition: background-color 0.5s ease-in;}
         #headerButtons div {transition: color 0.5s ease-out;}
         #headerButtons div:hover {background-color: rgba(0,0,0,0);color:#222;}
-        
-#headerButtons:hover > li {opacity: 0.3;}
+            
+#headerButtons:hover > li {opacity: 0.4;}
 #headerButtons:hover > li:hover {opacity: 1.0;}
 
 #headerButtons li:hover a {text-decoration:none;}
-
+/* 
 #hbtn_facebook:hover a:after {animation-name: comeDown;
     animation-duration: 0.3s;
     position:relative;content:'Facebook';}
@@ -131,7 +132,7 @@ background-size: cover;}
     from {bottom:-1em;}
     to {bottom:-0.5em;}
 }
-
+*/
 
         .fluffy > * {margin:0.25em;}
         .fluffier > * {margin:0.5em;}
