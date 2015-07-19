@@ -89,10 +89,11 @@ inset -3px 0px 10px 0px #FFFFFF;margin:0 auto;z-index:+1;
 background: url("img/layout/FreshPaint-30-2015.07.15-12.45.31.png")bottom left no-repeat;
 background-size: cover;}
 #wibwo h3 {color:white;margin:0 0.5em;text-shadow:0px 0px 3px rgba(255,255,255,0.8);}
+#wibwo img {box-shadow: 0px 0px 14px 3px rgba(0,0,0,0.7);}
 
 
-        #headerButtons {list-style:none;height:100%;}
-        #headerButtons li {align-self:center;border-radius:50%}
+        #headerButtons {list-style:none;height:100%;z-index:+1;}
+        #headerButtons li {align-self:center;border-radius:50%;transition:opacity 0.2s ease}
         #headerButtons div {background-clip:padding-box;width:2rem;height:2rem;border-radius:50%;text-align:center;}
         #headerButtons a:link {font-size:1rem;color:inherit;line-height:2rem;}
         #headerButtons a:visited {color:inherit;}
@@ -102,6 +103,36 @@ background-size: cover;}
         #headerButtons div {transition: color 0.5s ease-out;}
         #headerButtons div:hover {background-color: rgba(0,0,0,0);color:#222;}
         
+#headerButtons:hover > li {opacity: 0.3;}
+#headerButtons:hover > li:hover {opacity: 1.0;}
+
+#headerButtons li:hover a {text-decoration:none;}
+
+#hbtn_facebook:hover a:after {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'Facebook';}
+#hbtn_twitter:hover a:after  {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'Twitter';}
+#hbtn_linkedin:hover a:after {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'LinkedIn';}
+#hbtn_github:hover a:after   {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'Github';}
+#hbtn_medium:hover a:after   {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'Medium';}
+#hbtn_flickr:hover a:after   {animation-name: comeDown;
+    animation-duration: 0.3s;
+    position:relative;content:'Flickr';}
+    
+@keyframes comeDown {
+    from {bottom:-1em;}
+    to {bottom:-0.5em;}
+}
+
+
         .fluffy > * {margin:0.25em;}
         .fluffier > * {margin:0.5em;}
         .fluffiest > * {margin:1em;}
