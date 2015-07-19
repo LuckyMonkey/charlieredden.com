@@ -1,0 +1,156 @@
+* {margin:0;border:0;padding:0;}
+        html {font-size:100%;}
+        body {font-family: 'Oxygen', sans-serif;flex-wrap: wrap;}
+        h1, h2, h3, h4, h5, h6 {font-family: 'Oxygen', sans-serif;}
+        
+        h1 {
+            font-size:5em;
+            padding-top:10px;
+            font-weight:bold;
+        }
+        h2 {
+            font-size:3em;
+            padding-top:10px;
+            font-weight:bold;
+        }
+        h3 {
+            font-size:2.5em;
+            font-weight:300;
+            opacity:0.6;
+        }
+        h4 {
+            font-size:2em;
+            font-style:italic;
+        }
+        h5 {
+            font-size:2em;
+            font-weight:bold;
+        }
+        h6 {
+            font-size:1em;
+        }
+        header {
+            background:#000;
+            opacity:0.8;
+        }
+        header {flex:1;height:3em;padding:0 3em;}
+
+.flex {display:flex;}
+        .flex_row {display:flex;flex-direction:row;}
+        .flex_row_rev {display:flex;flex-direction:row-reverse;}
+        .flex_stack {display:flex;flex-direction:column;}
+        .flex_around {justify-content:space-around;}
+        .flex_wrap {flex-wrap:wrap;}
+        
+.flex_inline {display: inline-flex;}
+        .flex_left {justify-content: flex-start;}
+.flex_center {justify-content: center;}
+        .flex_right {justify-content: flex-end;}
+
+        .flex_top {align-items:flex-start;}
+        .flex_middle {align-items: center;}
+        .flex_bottom {align-items: flex-end;}
+        
+        .flex_1-1 > :first-child, 
+        .flex_1-1 > :nth-child(2) {flex:1;}
+
+        .flex_1-2 > :nth-child(1) {flex:1;}
+        .flex_1-2 > :nth-child(2) {flex:2;}
+        
+        .flex_2-1 > :nth-child(2), 
+        .flex_3-1 > :nth-child(2) {flex:1;}
+        
+        .flex_2-1 > :nth-child(1) {flex:2;}
+        .flex_3-1 > :nth-child(1) {flex:3;}
+        
+        .flex_content_row {display:flex;flex-direction:row;height:400px;padding:1em auto;}
+        
+
+#coverPhoto {background-image: url(img/layout/tree.png);background-size:contain;
+    box-shadow: inset 3px 0px 10px 0px #FFFFFF,s
+inset -3px 0px 10px 0px #FFFFFF;margin:0 auto;z-index:+1;
+    width:inherit;height:inherit;background-position: bottom;background-repeat:no-repeat;}
+        
+        #headline {
+            
+        
+        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+        max-width: fit-content;
+        border:1px solid #999;
+        border-radius:10px;
+        margin:2em auto;}
+#headline h3 {color: rgba(0,0,0,0.8);margin:0.5rem 0 2rem;}
+        #brand {color:aquamarine;}
+        #logo {display:flex;}
+        #logo img {height:80%;align-self:center;}
+
+
+#wibwo {width:100%;height:15em;box-shadow:0 5em 10em 0 black inset;
+background: url("img/layout/FreshPaint-30-2015.07.15-12.45.31.png")bottom left no-repeat;
+background-size: cover;}
+#wibwo h3 {color:white;margin:0 0.5em;text-shadow:0px 0px 3px rgba(255,255,255,0.8);}
+
+
+        #headerButtons {list-style:none;height:100%;}
+        #headerButtons li {align-self:center;border-radius:50%}
+        #headerButtons div {background-clip:padding-box;width:2rem;height:2rem;border-radius:50%;text-align:center;}
+        #headerButtons a:link {font-size:1rem;color:inherit;line-height:2rem;}
+        #headerButtons a:visited {color:inherit;}
+        #headerButtons div {color:#FFF;border: 2px solid #FFF;box-shadow: 0 0 0 2px #333;}
+        #headerButtons div {background-color:#333;}
+        #headerButtons div {transition: background-color 0.5s ease-in;}
+        #headerButtons div {transition: color 0.5s ease-out;}
+        #headerButtons div:hover {background-color: rgba(0,0,0,0);color:#222;}
+        
+        .fluffy > * {margin:0.25em;}
+        .fluffier > * {margin:0.5em;}
+        .fluffiest > * {margin:1em;}
+
+        .goAway {display:none;}
+
+        .obj {flex-direction:column;height:100%;overflow:hidden;margin:1em;background-color:rgba(0,0,0,0.8);}
+        .obj h1 {margin:0 auto;color:white;padding:0.5em;}
+        .obj > * {width:100%;height:100%;}
+        #face {
+            width:15em;height:15em;margin:2em 6em 2em 2em;
+            border:3px solid #FFF;box-shadow:0 0 0 2px #333;border-radius:50%}
+        .gplay {background-color: rgba(10,10,10,0.9;);background-image:url("http://www.transparenttextures.com/patterns/random-grey-variations.png");           
+        }
+
+        aside {
+        box-shadow: inset -10px 0px 10px -5px rgba(0,0,0,0.4);flex:1 1 0%;}
+.blueBG {background: url("http://www.transparenttextures.com/patterns/axiom-pattern.png") repeat, linear-gradient(45deg, rgba(193,166,255,1) 0%, rgba(112,198,255,0.91) 19%, rgba(255,255,255,0.76) 48%, rgba(112,198,255,0.63) 75%, rgba(184,143,255,0.59) 84%, rgba(184,143,255,0.51) 100%);}
+        main {justify-content:center;flex:1;background-color:#FFF;}
+    .infoContainer a {
+            min-width: fit-content;
+            text-decoration:none;
+            margin:0.1em 0.1em 0em;
+            padding:0.2em;
+            color:white;
+            border:1px solid black;
+            background-color:rgba(0,0,0,0.7);
+    float:left;}
+        .infoContainer .fa {font-size:1.2em;}
+        .info_location .fa {color:red;}
+        .info_contact .fa {color:deepskyblue;}
+        .info_resume .fa {color:brown;}
+        .info_painting .fa {color:greenyellow;}
+        .info_photos .fa {color:darkorange;}
+        .info_travels .fa {color:forestgreen;}
+        .info_webdev .fa {color: deeppink;}
+        .info_links .fa {color: grey;}
+        .info_ideas .fa {color:orange;}
+        .info_shares .fa {color:skyblue;}
+        .info_work .fa {color:white;}
+        .info_birthday .fa {color:hotpink;}
+        .info_things .fa {color:green;}
+        .info_things {height:1.3em;overflow:hidden;}
+        .info_things span {padding:0 0.1em;}
+        .info_things span:nth-child(1) {color:indigo}
+        .info_things span:nth-child(2) {color:crimson}
+        .info_things span:nth-child(3) {color: darkgoldenrod}
+        .info_things span:nth-child(4) {color: cadetblue}
+        .info_things span:nth-child(5) {color: darkmagenta}
+        .info_things span:nth-child(6) {color:forestgreen}
+        
+        .bump {height:1em;}]
