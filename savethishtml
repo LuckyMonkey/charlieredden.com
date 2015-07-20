@@ -93,7 +93,27 @@
 <div class='obj'>
     <h1>Twitter</h1>
     <a class="twitter-timeline"  href="https://twitter.com/charles_redden" data-widget-id="454467152523702272">Tweets by @charles_redden</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>      
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
 </section>
+
+
+
+
+                  <!--<a href='' class='info_box hvr-fade info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</a>
+                    <a href='' class='hvr-fade info_location'><i class="fa fa-fw fa-map-marker"></i>&nbsp;Portland Oregon</a>
+                     <a class='info_birthday'><i class="fa fa-fw fa-birthday-cake"></i>&nbsp;22 Years Old</a> -->
+                    <!-- <a href='' class='hvr-fade info_mention'><i class="fa fa-fw fa-at"></i>&nbsp;Charles_Redden</a>
+                    <!-- <a href='' class='hvr-fade info_steam'><i class="fa fa-fw fa-steam"></i>&nbsp;LuckyMonkey</a> -->
+                    <!-- <a href='' class='hvr-fade info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</a>
+                    <a href='' class='hvr-fade info_phone'><i class="fa fa-fw fa-phone"></i>&nbsp;774.855.9659</a>
+                    <!-- <a href='' class='hvr-fade info_contact'><i class="fa fa-fw fa-paper-plane-o"></i>&nbsp;Contacting Me</a>
+                    <a href='' class='hvr-fade info_resume'><i class="fa fa-fw fa-clipboard"></i>&nbsp;Resume / CV</a>
+                    <!-- <a href='' class='hvr-fade info_painting'><i class="fa fa-fw fa-paint-brush"></i>&nbsp;Painting</a> -->
+                    <!-- <a href='' class='hvr-fade info_photos'><i class="fa fa-fw fa-camera"></i>&nbsp;Photography</a> -->
+                    <!-- <a href='' class='hvr-fade info_travels'><i class="fa fa-fw fa-globe"></i>&nbsp;Travels</a> -->
+                    <!-- <a href='' class='hvr-fade info_webdev'><i class="fa fa-fw fa-file-code-o"></i>&nbsp;Web Development</a>
+                    <!-- <a href='' class='hvr-fade info_shares'><i class="fa fa-cloud-upload"></i>&nbsp;Shared Files</a> -->
+                    <!-- <a href='' class='hvr-fade info_ideas'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Other Projects</a> -->
+                    <!-- <a href='' class='hvr-fade info_links'><i class='fa fa-fw fa-paperclip'></i>&nbsp;Links / Cool Stuff</a> -->
