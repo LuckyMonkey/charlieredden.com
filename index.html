@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Charlie - Web Development Pyrotechnic</title>
+    <title>Charlie - Web Development Pyrotechnic</title>
     <!-- Prefix Free CSS -->
     <script src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
     <!-- Font Awesome Icon Fonts -->
@@ -14,72 +15,84 @@
     <script src='https://raw.githubusercontent.com/glennjones/microformat-shiv/master/microformat-shiv.min.js'></script>
     <link href='animate.css' rel='stylesheet' type='text/css'>
     <link href='layout.css' rel='stylesheet' type='text/css'>
-    
-
 </head>
+
 <body class='flex flex_wrap'>
-   
-   <header class='flex_row flex_1-1 flex_wrap'>
-    <section id='logo'>
-        <img class='flex_inline gradient_animation' src='img/layout/textTitle.png' alt='Charlie Redden' />
-    </section>
-    <section class='flex flex_middle flex_right'>
-       <ul id='headerButtons' class='flex_row fluffy'>
-            <li id='hbtn_facebook' class='hvr-bounce-in gradient_animation'><div><a href='http://fb.com/chredden'><i class='fa fa-fw fa-facebook'></i></a></div></li>
-            <li id='hbtn_twitter' class='hvr-bounce-in gradient_animation'><div><a href='http://twitter.com/charles_redden'><i class='fa fa-fw fa-twitter'></i></a></div></li>
-            <li id='hbtn_linkedin' class='hvr-bounce-in gradient_animation'><div><a href='http://www.linkedin.com/in/charlesredden'><i class='fa fa-fw fa-linkedin'></i></a></div></li>
-            <li id='hbtn_github' class='hvr-bounce-in gradient_animation'><div><a href='http://github.com/LuckyMonkey'><i class='fa fa-fw fa-github'></i></a></div></li>
-            <li id='hbtn_medium' class='hvr-bounce-in gradient_animation'><div><a href='http://medium.com/@luckymonkey'><i class='fa fa-fw fa-medium'></i></a></div></li>
-            <li id='hbtn_flickr' class='hvr-bounce-in gradient_animation'><div><a href='http://www.flickr.com/people/lkymky/'><i class='fa fa-fw fa-flickr'></i></a></div></li>
-        </ul>
-    </section>
-</header>
+    <header class='flex_row flex_1-1 flex_wrap'>
+        <section id='logo'>
+            <img class='flex_inline gradient_animation' src='img/layout/textTitle.png' alt='Charlie Redden' />
+        </section>
+        <section class='flex flex_middle flex_right'>
+            <ul id='headerButtons' class='flex_row fluffy'>
+                <li id='hbtn_facebook' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://fb.com/chredden' rel="me"><i class='fa fa-fw fa-facebook'></i></a></div>
+                </li>
+                <li id='hbtn_twitter' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://twitter.com/charles_redden' rel="me"><i class='fa fa-fw fa-twitter'></i></a></div>
+                </li>
+                <li id='hbtn_linkedin' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://www.linkedin.com/in/charlesredden'><i class='fa fa-fw fa-linkedin'></i></a></div>
+                </li>
+                <li id='hbtn_github' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://github.com/LuckyMonkey' rel="me"><i class='fa fa-fw fa-github'></i></a></div>
+                </li>
+                <li id='hbtn_medium' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://medium.com/@luckymonkey'><i class='fa fa-fw fa-medium'></i></a></div>
+                </li>
+                <li id='hbtn_flickr' class='hvr-bounce-in gradient_animation'>
+                    <div><a href='http://www.flickr.com/people/lkymky/' rel="me"><i class='fa fa-fw fa-flickr'></i></a></div>
+                </li>
+            </ul>
+        </section>
+    </header>
 
-<section id='headline'>
-<section class='blueBG flex_row fluffy flex_1-2'>
-   <section class='flex_right flex'>
-       <div><img src='img/layout/face.jpg' id='face' alt='Charles Redden - Web Developer' /></div>
-   </section>
-<section class='flex_middle'>
-   <h3>Welcome, You've found my website of ideas,<br /> artwork, photos, code, and internet things!</h3>
-    <div class='infoContainer'>
-        <a href='' class='hvr-fade info_work'><i class="fa fa-fw fa-street-view"></i>&nbsp;Web Developer</a>
-        <a href='' class='hvr-fade info_location'><i class="fa fa-fw fa-map-marker"></i>&nbsp;Portland Oregon</a>
-        <!-- <a class='info_birthday'><i class="fa fa-fw fa-birthday-cake"></i>&nbsp;22 Years Old</a> -->
-        <!-- <a href='' class='hvr-fade info_mention'><i class="fa fa-fw fa-at"></i>&nbsp;Charles_Redden</a>
-        <!-- <a href='' class='hvr-fade info_steam'><i class="fa fa-fw fa-steam"></i>&nbsp;LuckyMonkey</a> -->
-        <!-- <a href='' class='hvr-fade info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</a> -->
-        <a href='' class='hvr-fade info_phone'><i class="fa fa-fw fa-phone"></i>&nbsp;774.855.9659</a>
-        <!-- <a href='' class='hvr-fade info_contact'><i class="fa fa-fw fa-paper-plane-o"></i>&nbsp;Contacting Me</a>
-        <a href='' class='hvr-fade info_resume'><i class="fa fa-fw fa-clipboard"></i>&nbsp;Resume / CV</a>
-        <!-- <a href='' class='hvr-fade info_painting'><i class="fa fa-fw fa-paint-brush"></i>&nbsp;Painting</a> -->
-        <!-- <a href='' class='hvr-fade info_photos'><i class="fa fa-fw fa-camera"></i>&nbsp;Photography</a> -->
-        <!-- <a href='' class='hvr-fade info_travels'><i class="fa fa-fw fa-globe"></i>&nbsp;Travels</a> -->
-        <!-- <a href='' class='hvr-fade info_webdev'><i class="fa fa-fw fa-file-code-o"></i>&nbsp;Web Development</a>
-        <!-- <a href='' class='hvr-fade info_shares'><i class="fa fa-cloud-upload"></i>&nbsp;Shared Files</a> -->
-        <!-- <a href='' class='hvr-fade info_ideas'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Other Projects</a> -->
-        <!-- <a href='' class='hvr-fade info_links'><i class='fa fa-fw fa-paperclip'></i>&nbsp;Links / Cool Stuff</a> -->
-    </div>
-</section>   
-</section>
+    <main id='headline'>
+        <section class='blueBG flex_row fluffy flex_1-2'>
+            <section class='flex_right flex'>
+                <div><img src='img/layout/face.jpg' id='face' alt='Charles Redden - Web Developer' /></div>
+            </section>
+            <section class='flex_middle'>
+                <h3>Welcome, You've found my website of ideas,<br /> artwork, photos, code, and internet things!</h3>
+                <div class='infoContainer'>
+                    <a href='' class='hvr-fade info_work'><i class="fa fa-fw fa-street-view"></i>&nbsp;Web Developer</a>
+                    <a href='' class='hvr-fade info_location'><i class="fa fa-fw fa-map-marker"></i>&nbsp;Portland Oregon</a>
+                    <!-- <a class='info_birthday'><i class="fa fa-fw fa-birthday-cake"></i>&nbsp;22 Years Old</a> -->
+                    <!-- <a href='' class='hvr-fade info_mention'><i class="fa fa-fw fa-at"></i>&nbsp;Charles_Redden</a>
+                    <!-- <a href='' class='hvr-fade info_steam'><i class="fa fa-fw fa-steam"></i>&nbsp;LuckyMonkey</a> -->
+                    <!-- <a href='' class='hvr-fade info_skype'><i class="fa fa-fw fa-skype"></i>&nbsp;lkymky</a> -->
+                    <a href='' class='hvr-fade info_phone'><i class="fa fa-fw fa-phone"></i>&nbsp;774.855.9659</a>
+                    <!-- <a href='' class='hvr-fade info_contact'><i class="fa fa-fw fa-paper-plane-o"></i>&nbsp;Contacting Me</a>
+                    <a href='' class='hvr-fade info_resume'><i class="fa fa-fw fa-clipboard"></i>&nbsp;Resume / CV</a>
+                    <!-- <a href='' class='hvr-fade info_painting'><i class="fa fa-fw fa-paint-brush"></i>&nbsp;Painting</a> -->
+                    <!-- <a href='' class='hvr-fade info_photos'><i class="fa fa-fw fa-camera"></i>&nbsp;Photography</a> -->
+                    <!-- <a href='' class='hvr-fade info_travels'><i class="fa fa-fw fa-globe"></i>&nbsp;Travels</a> -->
+                    <!-- <a href='' class='hvr-fade info_webdev'><i class="fa fa-fw fa-file-code-o"></i>&nbsp;Web Development</a>
+                    <!-- <a href='' class='hvr-fade info_shares'><i class="fa fa-cloud-upload"></i>&nbsp;Shared Files</a> -->
+                    <!-- <a href='' class='hvr-fade info_ideas'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Other Projects</a> -->
+                    <!-- <a href='' class='hvr-fade info_links'><i class='fa fa-fw fa-paperclip'></i>&nbsp;Links / Cool Stuff</a> -->
+                </div>
+            </section>
+        </section>
 
-<section id='wibwo' class='flex flex_stack'>
-<h3>What I've been working on...</h3><br />
-<section class='flex flex_row fluffier'>
-    <section class='flex flex_stack flex_center'>
-        <img src="img/layout/frame.png" alt="frame" /><br />
-        <p>charlieredden.com</p>
-    </section>
-    <section class='flex flex_stack flex_center'>
-        <img src="img/layout/frame2.png" alt="frame" /><br />
-        <p>http://jplaw.me/</p>
-    </section>
-</section>
-</section>
+        <section id='wibwo' class='flex flex_stack'>
+            <h3>What I've been working on...</h3>
+            <br />
+            <section class='flex flex_row fluffier'>
+                <section class='flex flex_stack flex_center'>
+                    <img src="img/layout/frame.png" alt="frame" />
+                    <br />
+                    <p>charlieredden.com</p>
+                </section>
+                <section class='flex flex_stack flex_center'>
+                    <img src="img/layout/frame2.png" alt="frame" />
+                    <br />
+                    <p>http://jplaw.me/</p>
+                </section>
+            </section>
+        </section>
 
-</section>
-
-
+    </main>
 
 </body>
+
 </html>
