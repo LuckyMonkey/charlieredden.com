@@ -63,16 +63,26 @@ height: 1.5em;
 width: 1.5em;
 font-size: 1.2em;
 line-height: 1.5em;}
-.postHighlight .fa {font-size:2.6em;padding:0.5em 0.4em;}
+
+
+
+
 .postHighlight {background:rgba(255,255,255,0.8);border-radius:5px;border:1px solid black;padding:2em 2em !important;max-width:max-content;}
+
+.postHighlight > div, .postHighlight > i {float:left;}
+
+.postHighlight .fa {font-size:2.6em;padding:0.5em 0.4em;}
 .postHighlight p {font-size:1.5em;color:#444;padding-left:1em;}
 .postHighlight figcaption {font-size:0.9em;font-style:italic;opacity:0.4;padding:0 1.5em;text-decoration: underline;}
+
 #postMatrix .fa-facebook, .postHighlight .fa-facebook {background:#3D5DA2;opacity:0.8;color:white;}
+
 #postMatrix .fa-twitter {background:#333;color:#0099CC;opacity:0.8;}
 #postMatrix .fa-youtube {background:crimson;}
 #postMatrix .fa-instagram {background:brown;color: bisque;}
 #postMatrix .fa-medium {background:black;color:white;}
 
+.noBorder {border:0;}
 .goAway {
     display: none;
 }
