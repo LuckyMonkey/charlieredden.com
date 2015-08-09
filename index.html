@@ -1,75 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Metadata -->
     <title>Charlie - Web Development Pyrotechnic</title>
-    <!-- Prefix Free CSS -->
-    <script src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
-    <!-- Font Awesome Icon Fonts -->
+    <meta name="author" content="Charlie Redden">
+    <meta name="description" content="Personal Website and Web Development Solutions by Charles Redden">
+    <meta name="keywords" content="Charlie, Charlie Redden, HTML, CSS, JavaScript, SEO, PHP, Photography">
+    <meta charset="UTF-8">
+
     <link rel="stylesheet" href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' />
-    <!-- Oxygen Google Web Font -->
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
-    <!-- Hover CSS library  -->
+    <!-- <link rel="stylesheet" href='/cdn/Font-Awesome/css/font-awesome.min.css' />
+        <!-- Font Awesome Icon Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+        <!-- Oxygen Google Web Font -->
+    <script src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
+        <!-- Prefix Free -->    
     <link rel='stylesheet' href='https://raw.githubusercontent.com/IanLunn/Hover/master/css/hover-min.css'>
     <!-- Microformats shiv -->
+    <!-- Hover CSS library  -->
     <script src='https://raw.githubusercontent.com/glennjones/microformat-shiv/master/microformat-shiv.min.js'></script>
     <link rel="pingback" href="https://webmention.io/charlieredden.com/xmlrpc" />
-    <link rel="webmention" href="https://webmention.io/charlieredden.com/webmention" />
-
-    <link rel="stylesheet" href='/cdn/Font-Awesome/css/font-awesome.min.css' />
-
-    <link rel='stylesheet' href='https://raw.githubusercontent.com/leejordan/reflex/master/css/reflex.min.css'>
-
-    <link rel='stylesheet' href='/cdn/reflex/css/reflex.min.css'>
-
+    <link rel="webmention" href="https://webmention.io/charlieredden.com/webmention" />    
+    <link rel='stylesheet' href='layout.css'>
     <link rel='stylesheet' href='animate.css'>
-    <link rel='stylesheet' href='layout.css' >
 </head>
-
 <body>
-    <header class='reflex-container'>
-        <section class='reflex-col-6'>
-            <img id='textLogo' class='gradient_animation' src='img/layout/textTitle.png' alt='Charlie Redden' />
-        </section>
-        <section class='reflex-col-6 reflex-justify-end'>
-            <ul id='headerButtons' class='fluffy'>
-                <li id='hbtn_facebook' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://fb.com/chredden' rel="me"><i class='fa fa-fw fa-facebook'></i></a></div>
-                </li>
-                <li id='hbtn_twitter' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://twitter.com/charles_redden' rel="me"><i class='fa fa-fw fa-twitter'></i></a></div>
-                </li>
-                <li id='hbtn_linkedin' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://www.linkedin.com/in/charlesredden'><i class='fa fa-fw fa-linkedin'></i></a></div>
-                </li>
-                <li id='hbtn_github' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://github.com/LuckyMonkey' rel="me"><i class='fa fa-fw fa-github'></i></a></div>
-                </li>
-                <li id='hbtn_medium' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://medium.com/@luckymonkey'><i class='fa fa-fw fa-medium'></i></a></div>
-                </li>
-                <li id='hbtn_flickr' class='hvr-bounce-in gradient_animation'>
-                    <div><a href='http://www.flickr.com/people/lkymky/' rel="me"><i class='fa fa-fw fa-flickr'></i></a></div>
-                </li>
-            </ul>
-        </section>
-    </header>
-
+<header>
+    <img id='logo' class='gradient_animation' src='img/layout/textTitle.png' alt='Charlie Redden' />
+    <ul id='headerButtons'>
+        <li class='gradient_animation'><div><a href='#facebook'><i class='fa fa-fw fa-facebook'></i></a></div></li>
+        <li class='gradient_animation'><div><a href='#twitter'><i class='fa fa-fw fa-twitter'></i></a></div></li>
+        <li class='gradient_animation'><div><a href='#linked-in'><i class='fa fa-fw fa-linkedin'></i></a></div></li>
+        <li class='gradient_animation'><div><a href='#github'><i class='fa fa-fw fa-github'></i></a></div></li>
+        <li class='gradient_animation'><div><a href='#medium'><i class='fa fa-fw fa-medium'></i></a></div></li>
+        <li class='gradient_animation'><div><a href='#flickr'><i class='fa fa-fw fa-flickr'></i></a></div></li>
+    </ul>
+</header>
     <main>
-        <section id='banner' class='reflex-container reflex-wrap bg_white'>
-              <div class='reflex-col-3 reflex-item'>
-                <img class='reflex-img' src='img/layout/face.jpg' id='face' alt='Charles Redden - Web Developer' />
-              </div>
-              <div class='reflex-col-9 reflex-item'>
-                  <h1>Welcome!</h1><br /><h3>This is my website of ideas, artwork, photos, code, and internet stuff.</h3>
-                  <figure id='callToAction' class='reflex-direction-row'>
-                      <a href='' class='info_box'><i class="fa fa-fw fa-pencil-square-o"></i>&nbsp;Write a Post</a>
-                      <a href='' class='info_box'><i class="fa fa-fw fa-street-view"></i>&nbsp;Hire for Web Development</a>
-                      <a href='' class='info_box'><i class="fa fa-fw fa-clipboard"></i>&nbsp;View my Resume / CV</a>
-                      <a href='' class='info_box'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Explore my Projects</a>
-                      <a href='' class='info_box'><i class='fa fa-fw fa-share-alt'></i>&nbsp;Share this Page</a>
-                  </figure>
-              </div>
+        <section id='banner'>
+            <div id='headline'>
+                <h1 class='dotCom'>Welcome to CharlieRedden</h1>
+                <br />
+                <h3>This is my website of code, ideas, artwork, photos, posts, and internet stuff.</h3>
+                <ul id='callToAction' class='reflex-direction-row'>
+                    <a href='' class='info_box'><i class="fa fa-fw fa-pencil-square-o"></i>&nbsp;Write a Post</a>
+                    <a href='' class='info_box'><i class="fa fa-fw fa-street-view"></i>&nbsp;Hire for Web Development</a>
+                    <a href='' class='info_box'><i class="fa fa-fw fa-clipboard"></i>&nbsp;View my Resume / CV</a>
+                    <a href='' class='info_box'><i class='fa fa-fw fa-lightbulb-o'></i>&nbsp;Explore my Projects</a>
+                    <a href='' class='info_box'><i class='fa fa-fw fa-share-alt'></i>&nbsp;Share this Page</a>
+                </ul>
+            </div>
         </section>
+        
 
         <nav id='things' class='reflex-container'>
             <div class='reflex-col-2'><a class='reflex-item' href=''><i class='fa fa-camera'><br /></i><p>Photography</p></a></div>
@@ -80,48 +62,7 @@
             <div class='reflex-col-2'><a class='reflex-item' href=''><i class='fa fa-paperclip'><br /></i><p>Links</p></a></div>
         </nav>
 
-<section class="noBorder">
-    <div class='postHighlight'>
-        <i class='fa fa-fw fa-facebook'></i>
-        <div><p>This is what facebook posts look like!</p><br /><figcaption>by Charlie Redden 18:27 Sep 16th 2015</figcaption></div>
-    </div>
-</section>
-
-<section>
-    <div class='intergerCircle'>
-        <p>99</p>
-        <span>Metric</span>
-    </div>
-    <div class='intergerCircle'>
-        <p>99</p>
-        <span>Metric</span>
-    </div>
-    <div class='intergerCircle'>
-        <p>99</p>
-        <span>Metric</span>
-    </div>
-</section>
-
-<section id='postMatrix'>
-
-<h5>Older Posts</h5>
-<div class='postDots'>
-<i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-instagram'></i><i class='fa fa-fw fa-twitter'></i><i class='fa fa-fw fa-medium'></i><i class='fa fa-fw fa-github'></i><i class='fa fa-fw fa-linkedin'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-twitter'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-youtube'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-instagram'></i><i class='fa fa-fw fa-instagram'></i>
-<i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i>
-<i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i>
-</div>
-</section>
-<!--
-       <section id='posts'>
-&nbsp;
-       </section>
-
-       <section id='about'>
-&nbsp;
-       </section>
--->
-
-
     </main>
 </body>
+
 </html>

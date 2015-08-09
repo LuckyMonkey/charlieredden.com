@@ -78,4 +78,54 @@
 <main class='flex_stack'>
 </main>
 </body>
+<<<<<<< HEAD
 </html>
+
+
+
+ <section class="noBorder">
+            <div class='postHighlight'>
+                <i class='fa fa-fw fa-facebook'></i>
+                <div>
+                    <p>This is what facebook posts look like!</p>
+                    <br />
+                    <figcaption>by Charlie Redden 18:27 Sep 16th 2015</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <section class='noBorder'>
+            <div class='intergerCircle'>
+        </section>
+        <p>99</p>
+        <span>Metric</span>
+        </div>
+        <div class='intergerCircle'>
+            <p>99</p>
+            <span>Metric</span>
+        </div>
+        <div class='intergerCircle'>
+            <p>99</p>
+            <span>Metric</span>
+        </div>
+        </section>
+
+        <section id='postMatrix'>
+
+            <h5>Older Posts</h5>
+            <div class='postDots'>
+                <i class='fa fa-fw fa-facebook'></i>
+                <i class='fa fa-fw fa-instagram'></i>
+                <i class='fa fa-fw fa-twitter'></i>
+                <i class='fa fa-fw fa-medium'></i>
+                <i class='fa fa-fw fa-github'></i><i class='fa fa-fw fa-linkedin'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-twitter'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-youtube'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-facebook'></i><i class='fa fa-fw fa-instagram'></i><i class='fa fa-fw fa-instagram'></i>
+                <i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i>
+                <i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i><i class='fa fa-fw fa-lightbulb-o'></i>
+            </div>
+        </section>
+        <!--   <section id='posts'> &nbsp; </section>
+       <section id='about'> &nbsp; </section> -->
+
+=======
+</html>
+>>>>>>> origin/master
