@@ -22,6 +22,26 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+#postMatrix {background:#DADADF;display:inherit;}
+#postMatrix > * {padding:0 20px;}
+#postMatrix h3 {width:100%;}
+#postMatrix div.postDots {display:flex;flex-direction:row;flex-wrap:wrap;}
+#postMatrix .fa {background:rgba(0,0,0,0.6);border-radius:50%;color:#FFF;border-radius:50%;margin:0.4em;height:1.5em;width:1.5em;font-size:1.2em;line-height:1.5em;}
+
+.postHighlight {background:rgba(255,255,255,0.8);border-radius:5px;border:1px solid black;padding:2em 2em !important;max-width:max-content;}
+.postHighlight > div, .postHighlight > i {float:left;}
+.postHighlight .fa {font-size:2.6em;padding:0.5em 0.4em;}
+.postHighlight p {font-size:1.5em;color:#444;padding-left:1em;}
+.postHighlight figcaption {font-size:0.9em;font-style:italic;opacity:0.4;padding:0 1.5em;text-decoration: underline;}
+
+#postMatrix .fa-facebook, .postHighlight .fa-facebook {background:#3D5DA2;opacity:0.8;color:white;}
+#postMatrix .fa-twitter {background:#333;color:#0099CC;opacity:0.8;}
+#postMatrix .fa-youtube {background:crimson;}
+#postMatrix .fa-instagram {background:brown;color: bisque;}
+#postMatrix .fa-medium {background:black;color:white;}
+
+
+
 </head>
 <body class='flex_row'>
 <header class='flex_row flex_half'>
